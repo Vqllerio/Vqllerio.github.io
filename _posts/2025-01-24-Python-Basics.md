@@ -16,6 +16,18 @@ Another thing I’ve really appreciated is the massive library ecosystem. Whethe
 
 For me, Python has become my go-to for projects because it strikes a great balance between being simple enough for quick scripts but powerful enough for complex applications. Have you ever tried using Python for something specific?
 
-# If statements:
+# If Statements
 
-if statements are when a certain condition is met, a certain action occurs
+`if` statements are used to perform a specific action when a certain condition is met.
+
+### Example:
+
+```python
+ayam = 2
+
+if ayam == 1:
+    print("You have less than 2 chickens")
+elif ayam == 2:
+    print("You have exactly 2 chickens")
+else:
+    print("You have more than 2 chickens")
