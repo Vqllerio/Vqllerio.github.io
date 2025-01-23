@@ -39,7 +39,7 @@ Loops are incredibly useful in Python when you need to repeat a block of code mu
 # For Loops
 A for loop is used to iterate over a sequence (like a list, tuple, or string) or any iterable object.
 
-```
+```python
 Example:
 fruits = ["apple", "banana", "cherry"]
 
@@ -54,18 +54,18 @@ I like cherry
 # While Loops
 A while loop continues to execute as long as a specified condition is True. Be careful to include a condition that eventually stops the loop to avoid infinite loops.
 
-```
+```python
 Example:
 count = 0
 
 while count < 3:
     print(f"The count is {count}")
     count += 1
-Output:
 
-The count is 0  
-The count is 1  
-The count is 2  
+#Output:
+#The count is 0  
+#The count is 1  
+#The count is 2  
 ```
 
 # Functions in Python
@@ -74,27 +74,29 @@ Functions are blocks of reusable code that perform a specific task. They help ma
 * Defining and Calling a Function
 To define a function, use the def keyword, followed by the function name and parentheses. You can also pass arguments to the function.
 
-```
+```python
 Example:
 def greet(name):
     print(f"Hello, {name}!")
 
-greet("Vallerio")
-Output:
-Hello, Vallerio!
+greet("Vallerio") 
+
+#Output: 
+#Hello, Vallerio!
 ```
 Function with Return Value
 If you want your function to return a value, use the return keyword.
 
-```
+```python
 Example:
 def add_numbers(a, b):
     return a + b
 
 result = add_numbers(5, 7)
-print(f"The sum is {result}")
-Output:
-The sum is 12
+print(f"The sum is {result}") 
+
+#Output: 
+#The sum is 12
 ```
 # Lists in Python
 Lists are a fundamental part of Python and are incredibly useful for managing collections of data. Below, we’ll explore some common list operations with detailed examples and explanations.
@@ -102,40 +104,45 @@ Lists are a fundamental part of Python and are incredibly useful for managing co
 Accessing Elements in a List
 Lists in Python are zero-indexed, meaning the first element has an index of 0. You can use square brackets [] to access elements by their position in the list.
 
-```
+```python
 Example:
-python
-Copy
-Edit
 my_list = [1, 2, 3, 4, 5]
 ```
 
 # Access the first element
-```
-print(my_list[0])  # Output: 1
+```python
+print(my_list[0])  
+
+#Output: 1
 ```
 
 # Access the last element
-```
-print(my_list[-1])  # Output: 5
+```python
+print(my_list[-1])  
+
+#Output: 5
 ```
 
 # Access a range of elements (slicing)
+```python
+print(my_list[1:4])  
+
+#Output: [2, 3, 4]
 ```
-print(my_list[1:4])  # Output: [2, 3, 4]
 Explanation:
 my_list[0] gives the first element.
 my_list[-1] accesses the last element using a negative index.
 my_list[1:4] retrieves elements from index 1 to 3 (4 is excluded).
 Appending Elements to a List
 The append() method adds a single element to the end of the list. It’s useful when you need to grow a list dynamically.
-```
 
-```
+```python
 Example:
 my_list = [1, 2, 3]
 my_list.append(4)
-print(my_list)  # Output: [1, 2, 3, 4]
+print(my_list)  
+
+#Output: [1, 2, 3, 4]
 ```
 
 Explanation:
@@ -143,13 +150,14 @@ After calling my_list.append(4), the number 4 is added to the end of the list.
 This operation modifies the original list in place.
 Removing Elements from a List
 The remove() method removes the first occurrence of a specified value from the list. If the value doesn’t exist, Python will raise a ValueError.
-```
-```
-```
+
+```python
 Example:
 my_list = [1, 2, 3, 4, 5]
 my_list.remove(3)  # Removes the value 3 from the list
-print(my_list)  # Output: [1, 2, 4, 5]
+print(my_list)  
+
+#Output: [1, 2, 4, 5]
 ```
 Explanation:
 After calling my_list.remove(3), the first occurrence of 3 is removed.
@@ -157,7 +165,7 @@ If you try my_list.remove(6) and 6 isn’t in the list, Python will raise an err
 Iterating Through a List
 You can use a for loop to go through each element in a list. This is particularly helpful when you need to process or print all elements in the list.
 
-```
+```python
 Example:
 my_list = ["apple", "banana", "cherry"]
 
@@ -177,18 +185,23 @@ You can perform any operation on item inside the loop, such as printing, modifyi
 Additional List Tips
 Check if an item exists in a list:
 
-```
+```python
 if "banana" in my_list:
     print("Banana is in the list!")
-Get the length of a list:
+# Get the length of a list:
 ```
 
-```
-print(len(my_list))  # Output: 3
+```python
+print(len(my_list))  
+
+#Output: 3
+
 Combine two lists:
 list1 = [1, 2, 3]
 list2 = [4, 5, 6]
 
 combined = list1 + list2
-print(combined)  # Output: [1, 2, 3, 4, 5, 6]
+print(combined)  
+
+#Output: [1, 2, 3, 4, 5, 6]
 ```

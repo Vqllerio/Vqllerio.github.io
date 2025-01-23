@@ -40,7 +40,7 @@ Direct and Indirect Addressing: These are great for accessing memory directly or
 My Experience with Writing Programs
 One of the first programs I wrote was to print a string using DOS interrupts. It helped me understand how the 8086 interacts with the operating system. Here’s an example I worked on:
 
-```
+```asm
 ; Program to display "Hello, World!" on the screen
 
 section .data
@@ -62,7 +62,7 @@ Think like the processor does, step by step.
 Memory Segmentation and the Stack
 One of the challenging but interesting parts of 8086 assembly is the segmented memory model. At first, it felt a bit confusing to manage memory using segments, but once I understood how the segment registers (like CS, DS, and SS) worked together with offsets, it made sense. For instance, the stack uses the SS segment, and I learned to use instructions like PUSH and POP to save and retrieve data efficiently.
 
-#Tools I’ve Used
+# Tools I’ve Used
 To practice and test my code, I’ve relied on:
 
 Yjdoc2 : a good intel 8086 compiler with very detailed instructions and guides, although missing a few features and some things are not supported, such as recursive code while using MACROS
