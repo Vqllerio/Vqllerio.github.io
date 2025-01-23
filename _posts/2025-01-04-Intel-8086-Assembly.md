@@ -1,5 +1,5 @@
 ---
-title: "Python Basics"
+title: "Intel 8086 Assembly"
 date: "2025-01-24 00:00:00 +0800"
 categories: [Python]
 tags: [code]
