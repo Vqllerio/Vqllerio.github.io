@@ -145,8 +145,8 @@ Removing Elements from a List
 The remove() method removes the first occurrence of a specified value from the list. If the value doesn’t exist, Python will raise a ValueError.
 ```
 ```
-Example:
 ```
+Example:
 my_list = [1, 2, 3, 4, 5]
 my_list.remove(3)  # Removes the value 3 from the list
 print(my_list)  # Output: [1, 2, 4, 5]
