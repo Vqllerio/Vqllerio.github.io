@@ -20,5 +20,6 @@ To make things even more helpful, the app sends reminders and notifications so u
 Currently, the app is in progress and in its semi-prototyping stage. It doesn’t yet have a very pleasing UI/UX, but here are links to the GitHub repository and the Figma prototype design:
 
 Figma :[Figma.com](https://www.figma.com/proto/luw4WabiZFoKxdlcy7J0Kc/Untitled?node-id=169-1627&starting-point-node-id=96%3A1335&t=pNnTOK5cCuJE0rXI-1)
+
 Github :[GitHub.com](https://github.com/Vqllerio/Project-ALP)
 

@@ -42,78 +42,24 @@ Example:
 ## Substitution Method
 Solve one equation for one variable, then substitute it into the other equation.
 
-From 
-𝑥 + 𝑦 = 7, solve for 𝑦
+From 𝑥 + 𝑦 = 7, solve for 𝑦
+```
+𝑥 + 𝑦 = 7
+    𝑥 = 7 - y
+```
 
-𝑦 = 7 − 𝑥
-Substitute 
-𝑦
-=
-7
-−
-𝑥
-y=7−x into 
-2
-𝑥
-−
-𝑦
-=
-3
-2x−y=3:
-2
-𝑥
-−
-(
-7
-−
-𝑥
-)
-=
-3
-2x−(7−x)=3
-2
-𝑥
-−
-7
-+
-𝑥
-=
-3
-2x−7+x=3
-3
-𝑥
-=
-10
-  
-⟹
-  
-𝑥
-=
-10
-3
-3x=10⟹x= 
-3
-10
-​
+Substitute 𝑦 = 7 − 𝑥 into 2𝑥 - y = 3
+```
+      2𝑥 − 𝑦 = 3
+2𝑥 − (7 − 𝑥) = 3
+  2𝑥 − 7 + 𝑥 = 3
+          3𝑥 = 10
+           𝑥 = 10 / 3
+           𝑥 = 3.33​
+```
  
-Use 
-𝑥
-=
-10
-3
-x= 
-3
-10
-​
-  in 
-𝑦
-=
-7
-−
-𝑥
-y=7−x to find 
-𝑦
-y.
+Use 𝑥 = 3.33 in  𝑦 = 7 - x to find 𝑦
+
 Elimination Method
 Add or subtract the equations to eliminate one variable.
 
