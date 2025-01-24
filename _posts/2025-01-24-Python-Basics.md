@@ -7,8 +7,6 @@ tags: [code]
 image:
     path: /assets/images/python.png
 ---
-# Python Basics
-
 Python, in my experience, is a high-level, interpreted programming language that’s super versatile. I’ve found it really beginner-friendly because of its simple and clean syntax—it’s easy to pick up and understand, even if you’re new to programming.
 
 One thing I like about Python is that it's dynamically typed, so I don’t have to worry about declaring variable types—it just figures it out as the program runs. Plus, it’s interpreted, meaning it executes code line by line, which has been great for debugging and testing ideas quickly.
