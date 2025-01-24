@@ -4,8 +4,6 @@ layout: post
 date: "2025-01-24 00:00:00 +0800"
 categories: [Computer Architecture]
 tags: [Code, Computer Architecture]
-image:
-    path: assets/images/python.png
 ---
 
 # Intel Compiler 8086 Assembly

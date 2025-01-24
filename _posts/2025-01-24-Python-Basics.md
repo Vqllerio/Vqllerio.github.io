@@ -4,6 +4,8 @@ layout: post
 date: "2025-01-24 00:00:00 +0800"
 categories: [Python]
 tags: [code]
+image:
+    path: /assets/images/python.png
 ---
 # Python Basics
 
