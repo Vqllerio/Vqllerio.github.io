@@ -4,6 +4,8 @@ layout: post
 date: "2025-01-04 00:00:00 +0800"
 categories: [Computer Architecture]
 tags: [code, Computer Architecture]
+image:
+    path: /assets/images/8086.jpeg
 ---
 From my experience, the Intel 8086 Assembly Language is a powerful and low-level programming language that gives you direct control over the CPU and hardware. It’s fascinating because it works so close to the processor itself, which helps you understand how computers really operate at their core.
 
@@ -39,7 +41,7 @@ Direct and Indirect Addressing: These are great for accessing memory directly or
 My Experience with Writing Programs
 One of the first programs I wrote was to print a string using DOS interrupts. It helped me understand how the 8086 interacts with the operating system. Here’s an example I worked on:
 
-```
+```s
 ; Program to display "Hello, World!" on the screen
 
 DB 'Hello, World!'           ; String to display
@@ -58,3 +60,5 @@ One of the challenging but interesting parts of 8086 assembly is the segmented m
 To practice and test my code, I’ve relied on:
 
 [YJDoc2](https://yjdoc2.github.io/8086-emulator-web/) : a good intel 8086 compiler with very detailed instructions and guides, although missing a few features and some things are not supported, such as recursive code while using MACROS
+
+![Desktop View](/assets/images/compiler.png)
