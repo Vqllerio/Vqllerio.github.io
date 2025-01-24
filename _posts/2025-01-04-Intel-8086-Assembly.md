@@ -1,7 +1,7 @@
 ---
 title: "Intel 8086 Assembly"
 layout: post
-date: "2025-01-24 00:00:00 +0800"
+date: "2025-01-04 00:00:00 +0800"
 categories: [Computer Architecture]
 tags: [code, Computer Architecture]
 ---
