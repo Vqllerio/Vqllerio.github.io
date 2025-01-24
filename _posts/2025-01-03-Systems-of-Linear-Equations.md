@@ -7,96 +7,45 @@ tags: [Math]
 image:
     path: /assets/images/Linear_Algebra.png
 ---
-# i dunno
-1 Variable Equation
+### One Variable Equation
 This is the simplest case where there’s only one unknown variable, like 
 𝑥
 x.
 
 Example:
+```
+2𝑥 + 5 = 15
+```
 
-$$ 2𝑥 + 5 = 15 $$
-Steps to Solve:
-
-Isolate 
-𝑥
-x by moving constants to the other side:
-2
-𝑥
-=
-15
-−
-5
-2x=15−5
-2
-𝑥
-=
-10
-2x=10
-Divide by the coefficient of 
-𝑥
-x:
-𝑥
-=
-10
-2
-x= 
-2
-10
-​
- 
-𝑥
-=
-5
-x=5
-2 Variable Equations (Systems of Linear Equations)
-When there are two variables (like 
-𝑥
-x and 
-𝑦
-y), we need two equations to solve them.
+## Steps to Solve:
+* Isolate 𝑥 by moving constants to the other side:
+```
+2𝑥 = 15 − 5
+2𝑥 = 10
+```
+* Divide by the coefficient of 
+```
+𝑥 = 10 / 2
+𝑥 = 5
+```
+* Two Variable Equations (Systems of Linear Equations)
+When there are two variables (like 𝑥 and 𝑦), we need two equations to solve them.
 
 Example:
+```
+𝑥 + 𝑦 = 7
+2𝑥 − 𝑦 = 3
+```
 
-𝑥
-+
-𝑦
-=
-7
-2
-𝑥
-−
-𝑦
-=
-3
-x+y
-2x−y
-​
-  
-=7
-=3
-​
- 
-Methods to Solve:
+### Methods to Solve:
 
-Substitution Method
+## Substitution Method
 Solve one equation for one variable, then substitute it into the other equation.
 
 From 
-𝑥
-+
-𝑦
-=
-7
-x+y=7, solve for 
-𝑦
-y:
-𝑦
-=
-7
-−
-𝑥
-y=7−x
+𝑥 + 𝑦 = 7, solve for 𝑦
+
+𝑦 = 7 − 𝑥
 Substitute 
 𝑦
 =
