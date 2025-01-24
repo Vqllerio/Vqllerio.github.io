@@ -14,7 +14,6 @@ One of the first things I learned was how to work with the registers. These are 
 
 ### General-purpose registers:
 These are versatile and used for a variety of tasks:
-
 * AX: The accumulator, which is great for arithmetic and I/O operations.
 * BX: Often used for holding base addresses in memory.
 * CX: Acts as a counter in loops and shift operations.
