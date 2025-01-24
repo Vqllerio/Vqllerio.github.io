@@ -7,8 +7,5 @@ tags: [Math]
 image:
     path: /assets/images/Linear_Algebra.png
 ---
-
-
-
-
+# i dunno
 this is a cbhei 
